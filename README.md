@@ -56,7 +56,7 @@
 
 
 
-####6. 实验思路
+#### 6. 实验思路
 
 1. 对全部评论进行整合、分词、去停用词，得到语料库。
 2. 利用语料库进行Word2Vec的训练，得到词向量模型，同时建立相应的word-idx字典。
@@ -70,7 +70,7 @@
 
 ##### （1）模型网络结构可视化：
 
-![model graph](C:\Users\Citao\code\Sentiment Analysis\model graph.png)
+![model graph](https://github.com/Mathstao/Sentiment-Analysis/blob/master/pic_for_md/model%20graph.png)
 
 
 
@@ -85,7 +85,7 @@
 
 ##### （3）未归一化的混淆矩阵分别如下：
 
-![confusion matrix](C:\Users\Citao\code\Sentiment Analysis\confusion matrix.png)
+![confusion matrix](https://github.com/Mathstao/Sentiment-Analysis/blob/master/pic_for_md/confusion%20matrix.png)
 
 结果显示我们的模型对于正向情感的识别能力强于负向情感。猜想是因为人们在表达正向情感时，往往会比较直接，机器容易识别。而有一些人在表达负向情感时，喜欢用婉转或者嘲讽的方式，这时候机器就会难以判别。
 
@@ -93,7 +93,7 @@
 
 ##### （4）准确率和损失函数变化
 
-![loss](C:\Users\Citao\code\Sentiment Analysis\loss.png)
+![loss](https://github.com/Mathstao/Sentiment-Analysis/blob/master/pic_for_md/loss.png)
 
 在实验过程中，发现了一个有趣的现象：模型初期训练提升十分有限，准确率仅有60%波动。但在第15次迭代左右时，准确率和损失函数均有跳跃式的提升，猜想是此时模型跳出了局部最优解，成功跳到了全局最优解附近。
 
@@ -101,4 +101,4 @@
 
 ##### （5）模型各参数变化
 
-![histagram](C:\Users\Citao\code\Sentiment Analysis\histagram.png)
+![histagram](https://github.com/Mathstao/Sentiment-Analysis/blob/master/pic_for_md/histagram.png)
