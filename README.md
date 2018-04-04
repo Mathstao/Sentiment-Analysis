@@ -5,10 +5,8 @@
 
 - Window 10 x64
 - Python 3.6.3
-- gensim 3.2.0
-- jieba 0.39
-- tensorflow 1.4.0 & tensorboard 0.4.0
-- pandas 0.20.32
+- Packages: gensim 3.2.0, jieba 0.39, tensorflow 1.4.0 & tensorboard 0.4.0, pandas 0.20.32
+
 
 
 
